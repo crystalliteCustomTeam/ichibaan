@@ -89,9 +89,9 @@ const Contact = () => {
                                     </Link>
                                 </div>
                                 <div className={styles.infoLinks}>
-                                    <Link href="tel:021-111 22 55 77">
+                                    <Link href="tel:+60 87-451 688">
                                         <FaPhoneAlt className={styles.icon} />
-                                        021-111 22 55 77
+                                        +60 87-451 688
                                     </Link>
                                 </div>
                                 <div className={`${styles.infoLinks} ${styles.address}`}>
