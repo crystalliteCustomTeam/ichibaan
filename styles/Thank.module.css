@@ -1,0 +1,62 @@
+.thnks {
+  height: 100vh;
+  width: 100%;
+}
+
+.thnks .thnksBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thnks h4 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "SF-Bold";
+}
+
+.primaryBtn {
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.primaryBtn:hover {
+  color: #fff;
+}
+
+.primaryBtn::after {
+  content: url(../public/images/arrow.png);
+  position: absolute;
+  right: 0;
+  top: 14px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.primaryBtn:hover::after {
+  right: -25px;
+  opacity: 1;
+}
+
+/* ==========================Media-Queries========================== */
+
+@media screen and (max-width: 767px) {
+  .thnks h4 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
