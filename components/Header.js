@@ -120,9 +120,9 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <div className={styles.infoLinks}>
-                                            <Link href="tel:+60 87-451 688">
+                                            <Link href="tel:+60 11 1426 1581">
                                                 <FaPhoneAlt className={styles.icon} />
-                                                +60 87-451 688
+                                                +60 11 1426 1581
                                             </Link>
                                         </div>
                                     </li>
